@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-hbnb</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/1-hbnb.js') }}?cache_id={{ cache_id }}"></script>
+</head>
+<body>
+    <ul class="amenities">
+        <li><input type="checkbox" data-id="1" data-name="Amenity 1"> Amenity 1</li>
+        <li><input type="checkbox" data-id="2" data-name="Amenity 2"> Amenity 2</li>
+        <!-- Add more amenities as needed -->
+    </ul>
+    <div class="amenities">
+        <h4>Amenities: </h4>
+    </div>
+</body>
+</html>
