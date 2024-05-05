@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?{{ cache_id }}" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?{{ cache_id }}" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../static/scripts/101-hbnb.js?{{ cache_id }}"></script>
+  </head>
+  <body>
+    <header>
+      <div id="api_status" class="available"></div>
+    </header>
+    <section class="places">
+      <!-- Places will be dynamically added here -->
+    </section>
+    <section class="filters">
+      <!-- Your filter elements here -->
+      <button id="apply-filters">Apply Filters</button>
+      <div class="locations">
+        <h4>Selected Locations:</h4>
+        <ul id="selected-locations-list"></ul>
+      </div>
+    </section>
+    <section class="reviews">
+      <h2>Reviews <span id="toggle-reviews">show</span></h2>
+      <!-- Reviews will be dynamically added here -->
+    </section>
+  </body>
+</html>
+
